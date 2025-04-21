@@ -10,12 +10,12 @@ Você terá 3 variáveis, sendo elas:
 Imprima no console o valor que será gasto de combustível para realizar esta viajem.
 */
 
-console.log("Bem vindo ao Calculador de Rotas!")
+console.log("Bem vindo ao Calculador Inteligente de Combustível!")
 
 let precoCombustivel = 6.2;
 const kmPorCombustivel = 12;
 const distanciaViajem = 64;
 
-let valorGasto = (precoCombustivel*distanciaViajem)/kmPorCombustivel;
+let valorGasto = precoCombustivel * distanciaViajem / kmPorCombustivel;
 
 console.log("O valor que você irá gastar pela viajem é: R$ " + valorGasto.toFixed(2))
